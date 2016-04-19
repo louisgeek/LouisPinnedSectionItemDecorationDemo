@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         myRecyclerViewAdapter.setOnFooterClickListener(new MyRecyclerViewAdapter.OnFooterClickListener() {
             @Override
             public void onFooterClick(int position, Object object) {
-                myRecyclerViewAdapter.addDataItem(position,null);
+                myRecyclerViewAdapter.addDataItem(position, null);
             }
         });
 
